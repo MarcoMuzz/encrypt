@@ -17,3 +17,5 @@ presente in alcune versioni di Windows 10 e Windows Server:
 Questa vulnerabilità consente a un pacchetto di dati, creato appositamente per sfruttare la vulnerabilità, di funzionare sul server SMB centrale ed eseguire codice casuale sul sistema. Questa vulnerabilità è stata registrata come <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0796">CVE 2020-0796</a> e ha ricevuto un punteggio di pericolosità di 10 su 10.
 In questo attacco si andrà a sfruttare questa vulnerabilità per creare una reverse-shell sulla macchina della vittima. Si andrà poi a trasferire su di essa un file eseguibile malevolo e, tramite una ulteriore powershell reverse-shell, si andrà ad eseguirlo, andando a criptare tutti i file presenti sulla macchina.
 L’attacco risulterà molto simile ad un attacco Ransomware, con la sola differenza che non ci sarà nessuna richiesta di denaro per avere i propri file decriptati.
+
+L'obiettivo principale del progetto era evidenziare le varie fasi della Cyberkillchain sia dalla parte del Red Team che del Blue Team
